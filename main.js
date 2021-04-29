@@ -2,13 +2,13 @@
 // Меню бургер
 $(document).ready(function() {
 	$('.nav__icon').click(function(event) {
-		$('.nav__icon,.nav__body').toggleClass('active');
+		$('.nav__icon,.header__info').toggleClass('active');
 		$('body').toggleClass('lock');
 	});
 });
 
-$('.nav__body').click(function(){
-    $('.nav__icon, .nav__body').removeClass('active');
+$('.header__info').click(function(){
+    $('.nav__icon, .header__info').removeClass('active');
     $('body').removeClass('lock');
 });
 
