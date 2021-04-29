@@ -108,7 +108,7 @@ body {
 }
 
 .title {
-  font-family: "Lemonada", cursive;
+  font-family: "Gabriela", serif;
   font-weight: 600;
 }
 
@@ -251,7 +251,7 @@ body {
 }
 .header__nav-link {
   margin: 0 15px;
-  font-family: "Lemonada", cursive;
+  font-family: "Gabriela", serif;
   font-size: 18px;
   color: #ffffff;
 }
@@ -625,6 +625,7 @@ body {
   padding: 6px 12px;
   background-color: #fff;
   color: #6f866d;
+  font-family: "Gabriela", serif;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
