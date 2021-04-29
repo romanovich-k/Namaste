@@ -286,6 +286,7 @@ body {
   background-color: #fff;
   color: #6f866d;
   font-weight: 500;
+  border: 1px solid transparent;
 }
 @media (max-width: 950px) {
   .header__btn {
@@ -295,6 +296,16 @@ body {
     border: 1px solid #fff;
     font-size: 18px;
   }
+}
+.header__btn:hover {
+  background-color: #6f866d;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.6s;
+}
+.header__btn:hover .header__btn-icon {
+  color: #fff;
+  transition: all 0.6s;
 }
 .header__btn-icon {
   margin-right: 5px;
@@ -373,6 +384,14 @@ body {
   height: 28px;
   border: 1px solid #ffffff;
   border-radius: 30%;
+}
+.social__link:hover {
+  background-color: #fff;
+  transition: all 0.6s;
+}
+.social__link:hover .social__icon {
+  color: #6f866d;
+  transition: all 0.6s;
 }
 .social__icon {
   font-size: 16px;
