@@ -652,6 +652,11 @@ body {
   background: url(../img/13.png) bottom right no-repeat;
   background-size: 42%;
 }
+@media (min-width: 1600px) {
+  .scheldule {
+    background-size: 35%;
+  }
+}
 .scheldule__content {
   width: 61%;
   padding: 20px 10px 0;
