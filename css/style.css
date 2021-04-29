@@ -178,7 +178,7 @@ body {
 }
 
 .header {
-  padding: 20px 0;
+  padding: 25px 0;
   background-color: #6f866d;
 }
 @media (max-width: 950px) {
@@ -251,8 +251,9 @@ body {
 }
 .header__nav-link {
   margin: 0 15px;
+  padding: 3px 0;
   font-family: "Philosopher", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
 }
 .header__nav-link:last-child {
@@ -265,6 +266,11 @@ body {
     font-size: 24px;
     color: #fff;
   }
+}
+.header__nav-link:hover {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  transition: all 0.6s;
 }
 .header__bottom {
   display: flex;
@@ -494,7 +500,7 @@ body {
 }
 @media (max-width: 950px) {
   .banner__content {
-    width: 350px;
+    width: 340px;
     height: 150px;
   }
 }
@@ -511,7 +517,7 @@ body {
 }
 @media (max-width: 950px) {
   .banner__title {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 @media (max-width: 700px) {
