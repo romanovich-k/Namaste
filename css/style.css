@@ -153,30 +153,6 @@ body {
   font-weight: 700;
 }
 
-#back-to-top-btn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 26px;
-  width: 45px;
-  height: 45px;
-  background-color: rgba(125, 124, 124, 0.83);
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-  border: 3px solid #fff;
-  border-radius: 10%;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
-}
-
-#back-to-top-btn:hover, #back-to-top-btn:focus {
-  color: #83c4ec;
-  border: 3px solid #83c4ec;
-}
-
 .header {
   padding: 25px 0;
   background-color: #6f866d;
