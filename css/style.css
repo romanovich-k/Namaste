@@ -623,13 +623,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  transform: translateY(40px);
-  opacity: 0;
-}
-.tabs.element-show {
-  opacity: 1;
-  transform: translateY(0%);
-  transition: all 1.2s;
 }
 .tabs input {
   display: none;
@@ -653,6 +646,13 @@ body {
   cursor: pointer;
   border: 2px solid #fff;
   border-radius: 10px;
+  transform: translateY(40px);
+  opacity: 0;
+}
+.tabs__title.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.2s;
 }
 @media (max-width: 950px) {
   .tabs__title {
@@ -668,6 +668,13 @@ body {
   display: none;
   text-align: center;
   order: 1;
+  transform: translateY(40px);
+  opacity: 0;
+}
+.tabs__content.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.2s;
 }
 
 /*----SCHELDULE----*/
