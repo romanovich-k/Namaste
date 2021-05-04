@@ -514,13 +514,13 @@ body {
 .about__info {
   display: flex;
   flex-wrap: wrap;
-  transform: translateY(50px);
+  transform: scale(0);
   opacity: 0;
 }
 .about__info.element-show {
   opacity: 1;
-  transform: translateY(0%);
-  transition: all 1.2s;
+  transform: scale(1);
+  transition: all 1.5s;
 }
 @media (max-width: 1200px) {
   .about__info {
