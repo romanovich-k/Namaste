@@ -473,6 +473,13 @@ body {
   margin: 0 auto;
   background-color: #fff;
   border: 5px solid #6f866d;
+  opacity: 0;
+  transform: scale(0);
+}
+.banner__content.element-show {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 1.6s;
 }
 @media (max-width: 950px) {
   .banner__content {
@@ -507,6 +514,13 @@ body {
 .about__info {
   display: flex;
   flex-wrap: wrap;
+  transform: translateY(50px);
+  opacity: 0;
+}
+.about__info.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.2s;
 }
 @media (max-width: 1200px) {
   .about__info {
@@ -609,6 +623,13 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  transform: translateY(40px);
+  opacity: 0;
+}
+.tabs.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.2s;
 }
 .tabs input {
   display: none;
@@ -663,6 +684,13 @@ body {
   width: 61%;
   padding: 20px 10px 0;
   border: 3px solid #6f866d;
+  transform: scale(0);
+  opacity: 0;
+}
+.scheldule__content.element-show {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 1.5s;
 }
 @media (max-width: 950px) {
   .scheldule__content {
@@ -787,6 +815,13 @@ body {
   margin: 0 auto;
   padding: 10px;
   border: 2px solid #fff;
+  transform: translateY(40px);
+  opacity: 0;
+}
+.price__content.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.2s;
 }
 .price__info {
   margin-bottom: 20px;
@@ -838,6 +873,13 @@ body {
 .gallery__content {
   display: flex;
   flex-wrap: wrap;
+  transform: scale(0);
+  opacity: 0;
+}
+.gallery__content.element-show {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 1.5s;
 }
 .gallery__img-container {
   width: 25%;
