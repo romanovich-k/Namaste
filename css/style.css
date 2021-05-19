@@ -446,7 +446,7 @@ body {
 /*----BANNER---*/
 .banner {
   height: 83vh;
-  padding-top: 50px;
+  padding-top: 30px;
   background: url(../img/banner1.png) center/cover no-repeat;
 }
 @media (min-width: 1580px) {
@@ -457,7 +457,7 @@ body {
 }
 @media (max-width: 950px) {
   .banner {
-    padding-top: 70px;
+    padding-top: 60px;
     height: 86vh;
   }
 }
