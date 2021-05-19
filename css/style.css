@@ -451,13 +451,19 @@ body {
 }
 @media (min-width: 1580px) {
   .banner {
-    padding-top: 70px;
+    padding-top: 75px;
     height: 86vh;
   }
 }
 @media (max-width: 950px) {
   .banner {
     padding-top: 60px;
+    height: 86vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .banner {
+    padding-top: 120px;
     height: 86vh;
   }
 }
