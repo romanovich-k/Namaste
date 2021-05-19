@@ -464,7 +464,7 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .banner {
     padding-top: 120px;
-    height: 87vh;
+    height: 90vh;
   }
 }
 @media (max-width: 700px) {
