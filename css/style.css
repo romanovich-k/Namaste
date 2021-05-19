@@ -461,9 +461,9 @@ body {
     height: 86vh;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 700px) {
   .banner {
-    padding-top: 80px;
+    padding-top: 65px;
   }
 }
 .banner__content {
