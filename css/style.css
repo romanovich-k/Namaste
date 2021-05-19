@@ -445,22 +445,23 @@ body {
 
 /*----BANNER---*/
 .banner {
-  padding: 60px 0 365px;
+  height: 90vh;
+  padding-top: 50px;
   background: url(../img/banner1.png) center/cover no-repeat;
 }
 @media (min-width: 1580px) {
   .banner {
-    padding: 60px 0 500px;
+    padding-top: 70px;
   }
 }
 @media (max-width: 950px) {
   .banner {
-    padding: 60px 0 280px;
+    padding-top: 70px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 950px) {
   .banner {
-    padding: 60px 0 270px;
+    padding-top: 80px;
   }
 }
 .banner__content {
